@@ -30,8 +30,6 @@
      * element that contains the map. */
     #map {
 
-      position: absolute; top: 50; right: 60; bottom: 60; left: 50;
-
       height: 50%;
       width: 50%;
     }
@@ -47,6 +45,18 @@
   </style>
 
 <!-- Google map end -->
+<!-- Center for Google map start -->
+
+<style>
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+</style>
+
+<!-- Center for Google map start -->
 
 </head>
 
@@ -115,6 +125,8 @@
 
 <!-- Google map start -->
 
+<div class="center"
+
 <div id="map"></div>
 <script>
 
@@ -149,6 +161,8 @@
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8u__l89jfjj5HV_Ndd9JCRfpxMNtBW4s&callback=initMap">
 </script>
+
+</div>
 
 <!-- Google map end -->
 
